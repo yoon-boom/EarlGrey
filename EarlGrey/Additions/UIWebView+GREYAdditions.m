@@ -36,6 +36,8 @@ static void const *const kUIWebViewLoadingStateKey = &kUIWebViewLoadingStateKey;
 
 + (void)load {
   @autoreleasepool {
+      // because we are using subview of UIWebViewExtend, don't really needed this category class.
+      return;
     GREYSwizzler *swizzler = [[GREYSwizzler alloc] init];
     BOOL swizzleSuccess = [swizzler swizzleClass:self
                            replaceInstanceMethod:@selector(delegate)
