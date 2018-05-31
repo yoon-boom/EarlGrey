@@ -2,6 +2,7 @@
 *.sw[o-p]
 .DS_Store
 xcuserdata
+build/
 *.gem
 fishhook/
 OCHamcrest.framework
