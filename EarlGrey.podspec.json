@@ -50,10 +50,10 @@
     "EarlGrey/CHANGELOG.md",
     "EarlGrey/LICENSE",
     "EarlGrey/README.md",
-    "EarlGrey/EarlGrey/*"
   ],
   "ios": {
-    "vendored_frameworks": "EarlGrey/EarlGrey.framework"
+    "vendored_frameworks": "EarlGrey/EarlGrey.framework",
+    "source_files": "EarlGrey/*.{h,m,c}"
   },
   "pod_target_xcconfig": {
     "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
