@@ -55,8 +55,6 @@
     "source_files": "EarlGrey/*.{h,m}"
   },
   "pod_target_xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
-    "ENABLE_BITCODE": "NO",
-    "OTHER_CFLAGS": "-fobjc-arc-exceptions"
+    "GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited)"
   }
 }
