@@ -52,8 +52,7 @@
     "EarlGrey/README.md",
   ],
   "ios": {
-    "vendored_frameworks": "EarlGrey/EarlGrey.framework",
-    "source_files": "EarlGrey/*.{h,m,c}"
+    "source_files": "EarlGrey/*.{h,m}"
   },
   "pod_target_xcconfig": {
     "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
